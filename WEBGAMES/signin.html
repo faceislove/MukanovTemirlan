@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WEB-Games</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg navbar-light bg-dark" id="navbar">
+      <a class="navbar-brand" style="color: #dddddd" href="index.html"><span id="webgames"><strong>WEB-Games</strong></span></a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" style="color: #dddddd" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDZqqKTFQWJvGbckMqzpxZdfFjJnpfZNQxmvRCtjkDqwGKDkxKGSKBHJlgVVrPrhPDhKqzh"><span>Feedback</span></a>
+      </li>
+    </ul>
+  </div>
+</header>
+    <form>
+  <div class="row d-flex justify-content-center element-animation">
+    <div class="col-5"><FIELDSET class="my-5 mx-5" style="background-color: #dee2e6; border: 3px solid #dee2e6; border-radius: 10px"><br>
+    <h1 class="display-4 text-center" style="background-color: #dee2e6"> WEB-Games </h1>
+      <br>
+    <hr>
+    <div class="form-group">
+      <center>
+    <input type="text" style="width: 60%" class="form-control" placeholder="Enter Email" name="email" id="email" required>
+        <br>
+    <input type="password" style="width: 60%" class="form-control" placeholder="Enter Password" name="password" id="password" required>
+      </center>
+    </div>
+    <hr>
+    <div class="text-center">
+      <button onclick="check()" style="width: 40%" class="btn btn-primary btn-lg active" aria-pressed="true">Login</button>
+      <audio id="sound" src="sound-error.mp3"></audio>
+      <audio id="sounds" src="sound-signin.mp3"></audio>
+    </div><div class="container text-center">
+      <p class="lead">Do not have an account? <a href="registration.html">Register here</a>.</p>
+    </div><br>
+    </FIELDSET>
+    </div>
+  </div>
+    </form>
+    <script src="animation.js"></script>
+    <script src="login.js"></script>
+  </body>
+</html>

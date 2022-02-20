@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Profile</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#tg1").mouseenter(function(){
+                window.open("https://t.me/Aventadorous");
+            });
+        });
+        $(document).ready(function(){
+            $("#tg2").mouseenter(function(){
+                window.open("https://youtu.be/ao4RCon11eY");
+            });
+        });
+    </script>
+</head>
+<body>
+<header class="navbar navbar-expand-lg navbar-light bg-dark" id="navbar">
+    <a class="navbar-brand" style="color: #dddddd" href="WEB-Games2.html"><span id="webgames"><strong>WEB-Games</strong></span></a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" style="color: #dddddd" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDZqqKTFQWJvGbckMqzpxZdfFjJnpfZNQxmvRCtjkDqwGKDkxKGSKBHJlgVVrPrhPDhKqzh"><span>Feedback</span></a>
+            </li>
+        </ul>
+    </div>
+    <div class="btn-group dropleft">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Profile
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="index.html">Log out</a>
+        </div>
+    </div>
+</header>
+
+<div class="row element-animation">
+    <div class="col-2 mx-5 my-5"> <div>
+        <img class="border border-secondary" src="profile2.jpg" width="300" height="300">
+        <h3 class="display-4 d-flex justify-content-center" style="font-size: 35px">Faceislove</h3>
+        <br><br></div>
+    </div>
+    <div class="col-9">
+        <br>
+        <FIELDSET class="border border-secondary">
+            <legend class="float-none w-auto mx-3">User details</legend>
+            <br>
+            <div class="col">
+                <p><span class="mx-1" id="bio2">BIO</span></p></div>
+            <hr>
+            <br>
+            <div class="row d-flex">
+                <div class="col-6">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex">First Name: <span class="mx-1" id="first_name2">FIRST_NAME</span></li>
+                        <li class="list-group-item d-flex">Surname: <span class="mx-1" id="surname2">SURNAME</span></li>
+                        <li class="list-group-item d-flex">Age: <span class="mx-1" id="age2">AGE</span></li>
+                        <li class="list-group-item d-flex">Gender: <span class="mx-1" id="sex2">GENDER</span></li>
+                        <li class="list-group-item d-flex">Major: <span class="mx-1" id="major2">MAJOR</span></li>
+                    </ul>
+                </div>
+
+                <div class="col-6">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex">Country: <span class="mx-1" id="country2">COUNTRY</span></li>
+                        <li class="list-group-item d-flex">Group: <span class="mx-1" id="group2">CS2121N</span></li>
+                        <li class="list-group-item d-flex">Email: <span class="mx-1" id="email2">EMAIL</span></li>
+                        <li class="list-group-item d-flex">GitHub: <a class="mx-1" id="github2" href="https://github.com/faceislove">GITHUB</a></li>
+                        <li class="list-group-item d-flex">Telegram: <a class="mx-1" id="telegram2" href="https://t.me/mukanovtemirlan">TELEGRAM</a></li>
+                    </ul>
+                    <br>
+                </div>
+                <br><br><br><br><br><br><br><br></div>
+        </FIELDSET>
+    </div>
+</div>
+<FIELDSET class="border border-secondary mx-5 my-3 element-animation">
+    <legend class="float-none w-auto lead mx-5">Login activity</legend>
+    <div class="col">
+        <ul class="list-group list-group-flush">
+            <br>
+            <p class="list-group-item d-flex">First registration date: <span class="mx-1" id="first_date2">FIRST_DATE</span></p>
+            <p class="list-group-item d-flex">Last activity: <span class="mx-1" id="last_date2">LAST_ACTIVITY</span></p>
+            <br>
+        </ul>
+    </div>
+</FIELDSEt>
+<br>
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title" style="color: #dddddd"><strong>WEB-Games</strong></h5>
+        <p class="card-text">This site was created for informational and entertainment purposes. The site and it's element have no jurisdictional force.</p>
+        <p class="card-text">Site was created by <span id="tg1">Aventador</span> and <span id="tg2">Temirlan</span></p>
+    </div>
+</div>
+<script src="animation.js"></script>
+<script src="profile2.js"></script>
+</body>
+</html>

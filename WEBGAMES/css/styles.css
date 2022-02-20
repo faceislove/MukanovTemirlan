@@ -1,0 +1,93 @@
+a {
+  color: white;
+  background-color: dark;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: white;
+  margin: 0;
+}
+
+#webgames{
+  font-family: 'Montserrat', sans-serif;
+}
+#tglinks{
+  color: black;
+}
+#navbarNav {
+  background-color: dark;
+}
+#intro {
+  margin-left: 1em;
+}
+#carouselExampleFade{
+  margin-left: auto;
+  margin-right: auto;
+}
+#dropdownMenuLink{
+  margin-right: 1em;
+}
+.card{
+  background-color: #202020;
+}
+.card-text{
+  color: white;
+}
+.games {
+  text-align: center;
+}
+
+
+* {box-sizing: border-box}
+
+.container {
+  padding: 16px;
+}
+
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+@-webkit-keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-o-keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-moz-keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.element-animation {
+  opacity: 0;
+}
+.element-animation.element-show {
+  opacity: 1;
+  transition: opacity 3s;
+}
+
+fieldset{
+  border: 2px solid #dee2e6;
+  border-radius: 10px;
+}
+legend{
+  width:inherit;
+  padding:0 10px;
+  border-bottom:none;
+  float: none;
+  margin-bottom: -10px;
+  border-right: 5px;
+}
+
